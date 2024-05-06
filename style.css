@@ -1,0 +1,178 @@
+body {
+    padding-right: 20px;
+    padding: 40px;
+    width: 1440px;
+    background-color: rgb(225, 212, 201);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    color: rgb(176, 144, 122);
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 40px;
+    gap: 16px;
+}
+
+.img-all {
+    width: 340px;
+    height: 340px;
+    border-radius: 10%;
+}
+
+.placement-img {
+    display: flex;
+
+    margin-bottom: 40px;
+
+}
+
+.buttons button {
+    cursor: pointer;
+}
+
+button:active {
+    border-radius: 100px;
+    background: rgb(102, 95, 85);
+    padding: 8px 16px 8px 8px;
+    color: rgb(225, 212, 201);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+button {
+    border-radius: 100px;
+    border: 1px solid rgb(193, 182, 173);
+    color: rgb(64, 63, 61);
+    font-family: Inter;
+    font-size: 16px;
+    padding: 8px 16px 8px 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(225, 212, 201);
+
+}
+
+.finish-Sum {
+    display: flex;
+
+}
+
+.da {
+    color: rgb(64, 63, 61);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    left: 290px
+}
+
+.active {
+    background-color: rgb(151, 149, 147);
+}
+
+div {
+    gap: 40px;
+}
+
+
+h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3,
+p {
+    color: rgb(64, 63, 61);
+    font-family: Inter;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 12px;
+}
+
+
+.border-cards {
+    border: solid;
+    border-color: rgb(193, 182, 173);
+    border-radius: 10%;
+    border-width: 0.2px;
+}
+
+
+
+
+.price {
+    padding-top: 36px;
+}
+
+.card-last-text {
+    display: flex;
+}
+
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.step-card {
+    display: flex;
+
+    width: 800px;
+    height: 504px;
+    padding: 16px;
+    gap: 20px;
+    background-color: aliceblue;
+}
+
+.menu-card-btn {
+    display: flex;
+}
+
+.btn-close {
+
+    width: 438px;
+    height: 44px;
+    padding: 10px 78px 10px 78px;
+    text-align: center;
+}
+
+.cards-wrapper {
+    position: relative;
+
+}
+
+.module-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.module-show {
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
+}
